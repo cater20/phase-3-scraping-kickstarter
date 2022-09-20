@@ -7,6 +7,7 @@ describe "#create_project_hash" do
   it "returns a hash" do
     expect(create_project_hash.class).to eq(Hash)
   end
+  
 
   it "includes at least five projects" do
     expect(create_project_hash.length).to be >= 5
